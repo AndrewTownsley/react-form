@@ -49,15 +49,16 @@ const Form = () => {
         name="lastName"
         className="form-element" 
       />
-        {submitted && !values.firstName ? <span>Please enter your last name</span> : null}     
+        {submitted && !values.lastName ? <span>Please enter your last name</span> : null}     
       <input 
         onChange={handleEmailInputChange}
         values={values.email}
         type="email" 
         placeholder="Email"
-        className="form-element" 
+        className="form-element"
+        required 
       />
-        {submitted && !values.firstName ? <span>Please enter a valid email address</span> : null}      
+        {submitted && !values.email ? <span>Please enter a valid email address</span> : null}      
       <button className="register-btn">Register</button>
     </form>
   </div>
