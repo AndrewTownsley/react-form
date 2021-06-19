@@ -36,11 +36,6 @@ main {
   border-radius: 5px;
 }
 
-form span {
-  color: crimson;
-  margin-bottom: 1rem;
-}
-
 .form-window h3 {
   color: #555;
   margin-bottom: 1rem;
@@ -57,14 +52,21 @@ form span {
   min-width: 250px;
   background-color: rgb(243, 243, 243);
   border: none;
+  margin-top: 1rem;
+}
+
+form span {
+  color: crimson;
 }
 
 .register-btn {
   padding: 0.6rem;
+  margin-top: 1rem;
   background: rgb(255, 180, 40);
   border: none;
   font-size: 1.2rem;
   cursor: pointer;
+  color: #333;
 }
 
 .register-btn:hover {
